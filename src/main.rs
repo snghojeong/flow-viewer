@@ -1,3 +1,4 @@
 fn main() {
-    call(read_file()).read_line();
+    let mut file = open();
+    call(read_file(file)).read_line();
 }
