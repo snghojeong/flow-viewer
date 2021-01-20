@@ -1,5 +1,5 @@
-fn next(st: &str) => &str {
-    st[0..]
+fn next_str(st: &str) => &str {
+    st[1..]
 }
 
 fn main() {
