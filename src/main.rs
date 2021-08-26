@@ -5,5 +5,5 @@ fn next_str(st: &str) => &str {
 fn main() {
     let mut file = open();
     let mut line = String::new();
-    call(file.read_line(&mut line)).filter(lv, md);
+    call(file.read_line(&mut line)).filter(lv, md).unwrap();
 }
